@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    background-color: lavender;
+}
+/*This can be used only when we need one element of all elements*/
+h1:only-of-type{
+    font-variant: small-caps;
+}
+/*. is class selector*/
+.h2{
+    color: rgb(179, 166, 114);
+}
+/*This selector will select the first of li*/
+li:first-of-type{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: rgb(168, 120, 168);
+}
+/*It will select the selector which is last in type of li*/
+li:last-of-type{
+    font-weight: 50px;
+    color: darkgray;
+}
+/*, will select all anchors of div because of p tag*/
+div,p{
+    font-size: medium;
+    color:black    ;
+}
+/*We can also mention the elements directly without the help of class and id*/
+a{
+    color: chocolate;
+}
